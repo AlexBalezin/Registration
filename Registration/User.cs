@@ -8,7 +8,7 @@ namespace Registration
 {
     public class User
     {
-        public int id {  get; set; }
+        public int Id {  get; set; }
         private string login, email, pass;
         public string Login 
         { 

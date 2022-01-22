@@ -48,11 +48,12 @@ namespace Registration
                     userPageWindow.Show();
                     Close();
                 }
-            }
-            else
-            {
-                var notification = new ToastContentBuilder();
-                notification.AddText("Неверный логин или пароль");
+                else
+                {
+                    var notification = new ToastContentBuilder();
+                    notification.AddText("Такой пользователь уже зарегестрирован");
+                    notification.Show();
+                }
             }
 
         }

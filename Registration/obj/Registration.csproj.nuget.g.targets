@@ -7,6 +7,7 @@
     <Import Project="$(NuGetPackageRoot)stub.system.data.sqlite.core.netframework\1.0.115.5\buildTransitive\net46\Stub.System.Data.SQLite.Core.NetFramework.targets" Condition="Exists('$(NuGetPackageRoot)stub.system.data.sqlite.core.netframework\1.0.115.5\buildTransitive\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" />
     <Import Project="$(NuGetPackageRoot)microsoft.windows.sdk.contracts\10.0.19041.1\build\Microsoft.Windows.SDK.Contracts.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.windows.sdk.contracts\10.0.19041.1\build\Microsoft.Windows.SDK.Contracts.targets')" />
     <Import Project="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net48\1.0.0\build\Microsoft.NETFramework.ReferenceAssemblies.net48.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net48\1.0.0\build\Microsoft.NETFramework.ReferenceAssemblies.net48.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.data.sqlclient.sni\4.0.0\buildTransitive\net46\Microsoft.Data.SqlClient.SNI.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.data.sqlclient.sni\4.0.0\buildTransitive\net46\Microsoft.Data.SqlClient.SNI.targets')" />
     <Import Project="$(NuGetPackageRoot)materialdesignthemes\4.3.0\build\MaterialDesignThemes.targets" Condition="Exists('$(NuGetPackageRoot)materialdesignthemes\4.3.0\build\MaterialDesignThemes.targets')" />
   </ImportGroup>
 </Project>
