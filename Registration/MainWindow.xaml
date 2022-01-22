@@ -13,10 +13,9 @@
                 <DropShadowEffect BlurRadius="30" Color="LightGray" ShadowDepth="0"/>
             </Border.Effect>
             <StackPanel>
-                <TextBlock x:Name="GreetingText" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center"></TextBlock>
+                <TextBlock x:Name="GreetingText" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" Text="Регистрация"></TextBlock>
                 <Grid>
-                    <Button HorizontalAlignment="Left" Content="Регистрация"/>
-                    <Button HorizontalAlignment="Right" Content="Войти" Style="{StaticResource MaterialDesignFlatButton }" Click="Enter_Button_Click" Cursor="Hand"/>
+                    <Button HorizontalAlignment="Left" Content="Войти" Style="{StaticResource MaterialDesignFlatButton }" Click="Enter_Button_Click" Cursor="Hand"/>
                 </Grid>
                 <TextBox x:Name="loginField"  materialDesign:HintAssist.Hint="Введите логин" Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
                 <PasswordBox x:Name="passwordField" materialDesign:HintAssist.Hint="Введите пароль" Style="{StaticResource MaterialDesignFloatingHintPasswordBox}"/>

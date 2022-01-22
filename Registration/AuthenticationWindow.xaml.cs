@@ -61,6 +61,9 @@ namespace Registration
                 var notification = new ToastContentBuilder();
                 notification.AddText("Вход выполнен");
                 notification.Show();
+                UserPageWindow userPageWindow = new UserPageWindow();
+                userPageWindow.Show();
+                Close();
             }
             else
             {

@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Microsoft.Toolkit.Uwp.Notifications;
 
 namespace Registration
 {
@@ -43,7 +44,15 @@ namespace Registration
                     User user = new User(login, email, password);
                     db.Users.Add(user);
                     db.SaveChanges();
+                    UserPageWindow userPageWindow = new UserPageWindow();
+                    userPageWindow.Show();
+                    Close();
                 }
+            }
+            else
+            {
+                var notification = new ToastContentBuilder();
+                notification.AddText("Неверный логин или пароль");
             }
 
         }
